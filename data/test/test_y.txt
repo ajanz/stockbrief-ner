@@ -1,0 +1,5 @@
+[[],[{'entity_group': 'nam_org_company', 'word': 'kghm'}],[{'entity_group': 'nam_org_company', 'word': 'kghm'}],
+[{'entity_group': 'nam_org_company', 'word': 'kghm'}],[{'entity_group': 'nam_org_company', 'word': 'kghm'}],
+[{'entity_group': 'nam_org_company', 'word': 'pkn'}], [{'entity_group': 'nam_org_company', 'word': 'pko'}],
+[{'entity_group': 'nam_pro_brand', 'word': 'ipko'},{'entity_group': 'nam_pro_brand', 'word': 'ipko'}, {'entity_group': 'nam_pro_brand', 'word': 'ipko'}],
+[],[{'entity_group': 'nam_org_company', 'word': 'cd projekt'}],[]]
