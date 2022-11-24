@@ -6,7 +6,7 @@ import re
 
 class Inferator:
     def __init__(self) -> None:
-        self.ner = pipeline('ner', model='clarin-pl/FastPDN', aggregation_strategy='simple')
+        self.ner = pipeline('ner', model='clarin-pl/FastPDN', aggregation_strategy='max')
         self.nlp = spacy.load('pl_core_news_sm')
 
     def inferate(
@@ -14,6 +14,7 @@ class Inferator:
         text: str,
         translated:bool = True,
     ) -> dict:
+        # print([str(t) for t in self.nlp(text).sents])
         g = [self.ner(str(t)) for t in self.nlp(text).sents]
         if translated:
             return self.stockbrief_tagset_translate(g)
